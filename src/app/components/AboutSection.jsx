@@ -16,7 +16,7 @@ const AboutSection = () => {
           </div>
           {/* Enlace al tráiler con efecto cinematográfico */}
           <div className="w-full flex justify-center">
-            <Link href="https://www.youtube.com/watch?v=Hphwfq1wLJs" passHref>
+            <Link href="https://www.youtube.com/watch?v=1LLYMEVD0tw&ab_channel=CamilaHern%C3%A1ndez-Toro" passHref>
               <div className="relative w-full max-w-3xl cursor-pointer overflow-hidden" style={{ aspectRatio: '16/9' }}>
                 {/* Bandas negras para efecto cinematográfico */}
                 <div className="absolute top-0 left-0 right-0 h-8 bg-black"></div>
