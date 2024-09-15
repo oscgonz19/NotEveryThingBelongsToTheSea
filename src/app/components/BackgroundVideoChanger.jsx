@@ -11,7 +11,7 @@ const BackgroundVideoChanger = () => {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://storage.googleapis.com/noteverythingbelongtothesea/TeaserDocV1_Optimizado.mp4"
+          src="https://storage.googleapis.com/noteverythingbelongtothesea/TeaserDocV1_AltaCalidad.mp4"
           type="video/mp4"
         />
         Tu navegador no soporta el elemento <code>video</code>.
