@@ -36,9 +36,9 @@ export default function Footer() {
               <FaYoutube size={28} />
             </a>
           </div>
-        <div className="border-t border-gray-500 pt-6">
+        <div className= "max-h-screen">
           <p className="text-center mt-2 text-sm text-gray-400">
-            Diseñado con 💜 por el equipo
+            Diseñado con 💜 
           </p>
         </div>
       </div>
