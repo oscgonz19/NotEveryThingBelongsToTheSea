@@ -23,10 +23,15 @@ const TechSheet = () => {
             <p className="mt-2">  Juan Andrés Ruiz </p>
           </div>
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold text-gray-400">Dirección de fotografía:</h3>
+            <h3 className="text-lg font-semibold text-gray-400">Dirección de Fotografía:</h3>
             <p className="mt-2">Juan Camilo Franco</p>
              <p className="mt-2">Cristian Mauricio López Gomez</p>
           </div>
+                 <div className="col-span-1">
+            <h3 className="text-lg font-semibold text-gray-400">Asistente en Producción:</h3>
+            <p className="mt-2">Oscar Antonio Gonzalez</p>
+          </div>
+
           <div className="col-span-1">
             <h3 className="text-lg font-semibold text-gray-400">Sonidista:</h3>
             <p className="mt-2">Andri Yulieth Meneses</p>

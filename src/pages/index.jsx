@@ -59,7 +59,9 @@ export default function Home() {
           <div>
             <TrajectorySection />
           </div>
-
+      <div>
+            <TechSheet/>
+          </div>
           <Footer />
         </>
       )}

@@ -31,7 +31,7 @@ const AboutSection = () => {
 
         {/* Contenedor de la sinopsis a la derecha */}
         <div className="w-full md:w-1/2 text-center md:text-left flex items-center">
-          <p className="text-2xl leading-relaxed text-justify text-gray-600"> {/* Aumentamos el tamaño de la letra */}
+          <p className="text-2 xl leading-relaxed text-justify text-gray-600"> {/* Aumentamos el tamaño de la letra */}
             Las basuras marinas son un problema global que afecta a todos los océanos del mundo.
             En especial en Buenaventura, donde la basura marina es un problema que afecta a la comunidad
             y a la fauna marina. Este documental busca visibilizar la problemática de las basuras marinas
