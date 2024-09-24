@@ -8,7 +8,7 @@ const TechSheet = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-12">
           <div className="col-span-1">
             <h3 className="text-lg font-semibold text-gray-400">Producción e investigación:</h3>
-            <p className="mt-2">Maria Camila Hernandez Toro</p>
+            <p className="mt-2">María Camila Hernández Toro</p>
           </div>
           <div className="col-span-1">
             <h3 className="text-lg font-semibold text-gray-400">Guionista:</h3>

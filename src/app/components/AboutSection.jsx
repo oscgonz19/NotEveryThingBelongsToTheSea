@@ -4,10 +4,10 @@ import Link from 'next/link';
 
 const AboutSection = () => {
   return (
-    <div className="text-black flex flex-col justify-center items-center p-8 h-screen">
-      <div className="flex flex-col md:flex-row w-full max-w-7xl gap-x-16"> {/* Añadimos separación horizontal */}
+    <div className="text-black flex flex-col justify-center items-center  h-screen">
+      <div className="flex flex-col md:flex-row w-full max-w-7xl gap-x-10"> {/* Añadimos separación horizontal */}
         {/* Contenedor del teaser a la izquierda */}
-        <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
+        <div className="w-full md:w-1/2 flex justify-center mb-2 md:mb-0">
           <Link href="https://www.youtube.com/watch?v=1LLYMEVD0tw&ab_channel=CamilaHern%C3%A9ndez-Toro" passHref>
             <div className="relative w-full max-w-3xl cursor-pointer overflow-hidden" style={{ aspectRatio: '16/9' }}>
               {/* Bandas negras para efecto cinematográfico */}

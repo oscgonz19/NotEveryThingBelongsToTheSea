@@ -15,7 +15,7 @@ export default function Preloader({ isLoaded }) {
           return 100;
         }
       });
-    }, 40); // Ajusta el tiempo para incrementar más lento o rápido
+    }, 50); // Ajusta el tiempo para incrementar más lento o rápido
 
     return () => clearInterval(interval);
   }, []);

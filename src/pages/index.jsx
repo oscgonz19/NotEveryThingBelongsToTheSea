@@ -22,6 +22,7 @@ import TechSheet from '../app/components/TechSheet';
 import CinematicSlider from '../app/components/CinematicSlider';
 
 
+
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
 

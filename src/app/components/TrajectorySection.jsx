@@ -2,10 +2,7 @@ import React from 'react';
 
 const TrajectorySection = () => {
   return (
-    <div className=" text-white py-16"
-    style={{
-          fontFamily: "'Playfair Display', serif",
-        }}>
+    <div className=" text-white py-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold mb-8 text-center">Trayectoria del proyecto</h2>
         <div className="space-y-8">
