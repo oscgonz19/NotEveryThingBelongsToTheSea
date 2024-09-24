@@ -30,21 +30,16 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 8000); // Puedes ajustar el tiempo según tu video o recursos
+    }, 5000); // Puedes ajustar el tiempo según tu video o recursos
 
     return () => clearTimeout(timer);
   }, []);
   return (
-     <div className="relative bg-[#f5f5f5]">
-      {!isLoaded && <Preloader />} {/* Mostrar el preloader hasta que esté cargado */}
-
-      {isLoaded && (
-        <>
-          <div className="fixed top-0 left-0 right-0 z-50 bg-[#f5f5f5] bg-opacity-50">
-            <NavBar />
-          </div>
-
+       <div className="relative bg-[#f5f5f5]">
+      <Preloader isLoaded={isLoaded} /> {/* Pasamos isLoaded al Preloader */}
+      {/* Contenido principal */}
           <div className="relative h-screen w-full overflow-x-hidden">
+            <NavBar />
             <BackgroundVideoChanger />
             <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-white px-8 md:px-16 lg:px-24">
               <DocumentalInfo />
@@ -63,8 +58,6 @@ export default function Home() {
             <TechSheet/>
           </div>
           <Footer />
-        </>
-      )}
     </div>
   );
 }
