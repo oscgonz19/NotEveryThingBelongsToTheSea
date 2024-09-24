@@ -35,10 +35,10 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
   return (
-       <div className="relative bg-[#f5f5f5]">
+       <div>
       <Preloader isLoaded={isLoaded} /> {/* Pasamos isLoaded al Preloader */}
       {/* Contenido principal */}
-          <div className="relative h-screen w-full overflow-x-hidden">
+          <div className="relative h-screen w-full overflow-x-hidden bg-#f5f5f5">
             <NavBar />
             <BackgroundVideoChanger />
             <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-white px-8 md:px-16 lg:px-24">

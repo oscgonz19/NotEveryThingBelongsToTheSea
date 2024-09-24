@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const AboutSection = () => {
   return (
-    <div className="bg-#f5f5f5 text-black flex flex-col justify-center items-center p-8 h-screen">
+    <div className="text-black flex flex-col justify-center items-center p-8 h-screen">
       <div className="flex flex-col md:flex-row w-full max-w-7xl gap-x-16"> {/* Añadimos separación horizontal */}
         {/* Contenedor del teaser a la izquierda */}
         <div className="w-full md:w-1/2 flex justify-center mb-6 md:mb-0">
@@ -31,7 +31,10 @@ const AboutSection = () => {
 
         {/* Contenedor de la sinopsis a la derecha */}
         <div className="w-full md:w-1/2 text-center md:text-left flex items-center">
-          <p className="text-2 xl leading-relaxed text-justify text-gray-600"> {/* Aumentamos el tamaño de la letra */}
+          <p className="text-2 xl leading-relaxed text-justify text-white"
+           style={{
+          fontFamily: "'Roboto', serif",
+        }}>{/* Aumentamos el tamaño de la letra */}
             Las basuras marinas son un problema global que afecta a todos los océanos del mundo.
             En especial en Buenaventura, donde la basura marina es un problema que afecta a la comunidad
             y a la fauna marina. Este documental busca visibilizar la problemática de las basuras marinas

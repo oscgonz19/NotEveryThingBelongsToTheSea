@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f5f5f5] text-gray-900 py-16">
+    <footer className="text-white py-16">
       <div className="max-w-7xl mx-auto px-8">
           {/* Iconos de redes sociales */}
           <div className="flex space-x-8 justify-center items-center px-5">
@@ -38,7 +38,7 @@ export default function Footer() {
           </div>
         <div className= "max-h-screen">
           <p className="text-center mt-2 text-sm text-gray-400">
-            Diseñado con 💜 
+            
           </p>
         </div>
       </div>
