@@ -22,7 +22,6 @@ import TechSheet from '../app/components/TechSheet';
 import CinematicSlider from '../app/components/CinematicSlider';
 
 
-
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -34,30 +33,33 @@ export default function Home() {
 
     return () => clearTimeout(timer);
   }, []);
+
   return (
-       <div>
+    <div>
       <Preloader isLoaded={isLoaded} /> {/* Pasamos isLoaded al Preloader */}
       {/* Contenido principal */}
-          <div className="relative h-screen w-full overflow-x-hidden bg-#f5f5f5">
-            <NavBar />
-            <BackgroundVideoChanger />
-            <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-white px-8 md:px-16 lg:px-24">
-              <DocumentalInfo />
-            </div>
-          </div>
+      <div className="relative h-screen w-full overflow-x-hidden">
+        {/* Solo renderiza el NavBar si isLoaded es true */}
+        {isLoaded && <NavBar />}
+        <BackgroundVideoChanger />
+        <div className="absolute inset-0 flex flex-col items-start justify-center text-left text-white px-8 md:px-16 lg:px-24">
+          <DocumentalInfo />
+        </div>
+      </div>
 
-          {/* Secciones adicionales */}
-          <div>
-            <AboutSection />
-          </div>
-
-          <div>
-            <TrajectorySection />
-          </div>
+      {/* Secciones adicionales */}
       <div>
-            <TechSheet/>
-          </div>
-          <Footer />
+        <AboutSection />
+      </div>
+
+      <div>
+        <TrajectorySection />
+      </div>
+
+      <div>
+        <TechSheet />
+      </div>
+      <Footer />
     </div>
   );
 }
