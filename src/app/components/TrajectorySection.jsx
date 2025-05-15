@@ -24,7 +24,7 @@ const TrajectorySection = () => {
               }}
             >
               <li>Actualmente participantes del estímulo para realización de cortometraje documental del Ministerio de Cultura de Colombia.</li>
-              <li>Finalistas de la convocatoria "Relatos regionales" del Fondo para el Desarrollo Cinematográfico de Colombia (FDC) 2024.</li>
+              <li>Finalistas de la convocatoria &quot;Relatos regionales&quot; del Fondo de Desarrollo Cinematográfico de Colombia (FDC) 2024.</li>
               <li>Participantes de la convocatoria Documentary Fund de Sundance Institute 2024.</li>
               <li>Participantes de la convocatoria IDFA Bertha Fund - categoría Classic 2024.</li>
               
