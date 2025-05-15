@@ -2,23 +2,23 @@ import React from 'react';
 
 const TechSheet = () => {
   return (
-    <div className="w-full bg-black text-white py-16 flex items-center justify-center min-h-screen"> {/* min-h-screen agregado */}
+    <div className="w-full bg-black text-white px-8 py-16 flex items-center justify-center min-h-screen"> {/* min-h-screen agregado */}
       <div className="max-w-6xl w-full flex flex-col items-center space-y-16">
         {/* Título centrado con color azul */}
         <h2
-          className="text-5xl font-bold text-blue-400 text-center mb-12"
+          className="text-4xl font-bold text-blue-400 text-center mb-12"
           style={{
             fontFamily: "'Playfair Display', serif",
           }}
         >
-          Ficha Técnica
+          EQUIPO 
         </h2>
 
         {/* Contenido de la sección */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-12 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Producción e investigación */}
           <div className="col-span-1">
-            <h3 className="text-lg font-semibold text-gray-400"
+            <h3 className="text-2x1 font-semibold text-gray-400"
               style={{
                 fontFamily: "'Roboto', sans-serif",
                 textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)',
