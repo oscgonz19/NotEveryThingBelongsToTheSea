@@ -16,7 +16,7 @@ const AboutSection = () => {
 
         {/* Contenido del texto centrado */}
         <p
-          className="text-2xl leading-relaxed text-justify max-w-3xl text-gray-300" // Tamaño del texto más grande y color gris más suave
+          className="mt-2 leading-relaxed text-justify max-w-3xl text-gray-300" // Tamaño del texto más grande y color gris más suave
           style={{
             fontFamily: "'Roboto', sans-serif",
             textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)', // Sombra para darle mayor profundidad

@@ -6,7 +6,7 @@ const TechSheet = () => {
       <div className="max-w-6xl w-full flex flex-col items-center space-y-16">
         {/* Título centrado con color azul */}
         <h2
-          className="text-4xl font-bold text-blue-400 text-center mb-12"
+          className="text-4xl font-bold text-green-400 text-center mb-12"
           style={{
             fontFamily: "'Playfair Display', serif",
           }}

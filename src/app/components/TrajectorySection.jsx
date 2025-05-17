@@ -18,7 +18,7 @@ const TrajectorySection = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
           {/* Premios y Reconocimientos */}
           <div className="w-full max-w-3xl">
-            <ul className="text-2xl list-disc list-inside space-y-4 leading-relaxed text-gray-300"
+            <ul className="mt-2 list-disc list-inside space-y-4 leading-relaxed text-gray-300"
               style={{
                 fontFamily: "'Roboto', sans-serif",
               }}
